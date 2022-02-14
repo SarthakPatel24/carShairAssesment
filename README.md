@@ -20,6 +20,10 @@ https://carshairassesment.herokuapp.com/
 2. https://carshairassesment.herokuapp.com/api/vehicle/getMakesForManufacturerAndYear/mer/2014
 3. https://carshairassesment.herokuapp.com/api/vehicle/getDetailsFromVin/1FMFU18556LA24544
 
+
+## Explaination
+The "vehicle.routes.js" file maps all the routes to the apis that are created. The controller functions in the "vehicle.controller.js" are called from the routes file mentioned before. The controller functions also takes HTTP requests and returns HTTP responses whenever they are called. These functions inside the controller file calls the functions in the helper file named "vehicle.helper.js" which fetches the outputs from the NHSTA APIs. All of these functions can be reused whenever and wherever they are required again.
+
 ## Folder Structure
 The complete project is divided initially into three parts:
 1. node modules : contains all the necessary modules from npm to run the project.
@@ -38,6 +42,4 @@ Finally the api folder is divided into 4 parts:
 3. models: All the interactions related with DBMS are done in the files of this folder.
 4. routes: All the routes to the APIs are written over here.
 
-## Explaination
-The "vehicle.routes.js" file maps all the routes to the apis that are created. The controller functions in the "vehicle.controller.js" are called from the routes file mentioned before. The controller functions also takes HTTP requests and returns HTTP responses whenever they are called. These functions inside the controller file calls the functions in the helper file named "vehicle.helper.js" which fetches the outputs from the NHSTA APIs. All of these functions can be reused whenever and wherever they are required again.
 
