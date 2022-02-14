@@ -6,9 +6,10 @@ The project is structured in a way to reuse the logic as much as possible.
 
 Once you have cloned our downloaded the project you would have to open the terminal and run "npm install" command , this would install all the required modules for the project. Once the dependencies are installed you should run the "npm start" command to run the server where all the apis would be hosted. 
 
-To check the apis:http://localhost:3000/api/vehicle/getallmakes
-http://localhost:3000/api/vehicle/getMakesForManufacturerAndYear/mer/2014 ("mer" is the Manufacturer and "2014" is the Year)
-http://localhost:3000/api/vehicle/getDetailsFromVin/1FMFU18556LA24544
+To check the apis:
+1. http://localhost:3000/api/vehicle/getallmakes
+2. http://localhost:3000/api/vehicle/getMakesForManufacturerAndYear/mer/2014 ("mer" is the Manufacturer and "2014" is the Year)
+3. http://localhost:3000/api/vehicle/getDetailsFromVin/1FMFU18556LA24544
 
 
 ## Folder Structure
