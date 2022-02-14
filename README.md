@@ -11,6 +11,14 @@ To check the apis:
 2. http://localhost:3000/api/vehicle/getMakesForManufacturerAndYear/mer/2014 ("mer" is the Manufacturer and "2014" is the Year)
 3. http://localhost:3000/api/vehicle/getDetailsFromVin/1FMFU18556LA24544 ("1FMFU18556LA24544" is the VIN Number)
 
+## Deployment
+I have deployed my assesment on Heroku in the below link:
+
+https://carshairassesment.herokuapp.com/
+
+1. https://carshairassesment.herokuapp.com/api/vehicle/getallmakes
+2. https://carshairassesment.herokuapp.com/api/vehicle/getMakesForManufacturerAndYear/mer/2014
+3. https://carshairassesment.herokuapp.com/api/vehicle/getDetailsFromVin/1FMFU18556LA24544
 
 ## Folder Structure
 The complete project is divided initially into three parts:
