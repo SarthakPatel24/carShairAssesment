@@ -1,7 +1,15 @@
 # carShairAssesment
 
-## Folder Structure
+The project is structured in a way to reuse the logic as much as possible.
 
+## How to Run
+
+Once you have cloned our downloaded the project you would have to open the terminal and run "npm install" command , this would install all the required modules for the project. Once the dependencies are installed you should run the "npm start" command to run the server where all the apis would be hosted. 
+
+To check the apis: 
+
+
+## Folder Structure
 The complete project is divided initially into three parts:
 1. node modules : contains all the necessary modules from npm to run the project.
 2. src: the source code of the project.
