@@ -8,8 +8,11 @@ Once you have cloned our downloaded the project you would have to open the termi
 
 To check the apis:
 http://localhost:3000/api/vehicle/getallmakes
+
 http://localhost:3000/api/vehicle/getMakesForManufacturerAndYear/mer/2014 ("mer" is the Manufacturer and "2014" is the Year)
+
 http://localhost:3000/api/vehicle/getDetailsFromVin/1FMFU18556LA24544
+
 
 ## Folder Structure
 The complete project is divided initially into three parts:
